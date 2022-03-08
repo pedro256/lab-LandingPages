@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+body a {
+    box-shadow: none;
+    text-decoration: none;
+}
+
+body a:hover{
+    color: #FFF;
+}
+ul {
+    list-style-type: none;
+}
+
+.element-100p100{
+    width: 100%;
+}
+.element-div-centerlized{
+    width: max-content;
+}
+.background-black{
+    background-color: #000;
+    opacity: .95;
+    transition: .3s,border-radius .3s,opacity .3s;
+}
+
+.elementor-shape-fill{
+    fill: #000;
+}
+.elementor-shape-fill-blank{
+    fill: white;
+}
+.elementor-shape-fill-gray{
+    fill: #f2eeee;
+}
+.element-spacer-padding-top-medium{
+    padding-top: 20px;
+}
+.element-spacer-padding-bottom-medium{
+    padding-bottom: 20px;
+}
+
+.element-spacer-padding-top-large{
+    padding-top: 40px;
+}
+.element-spacer-padding-bottom-large{
+    padding-bottom: 40px;
+}
+
+.elementor-spacer-inner {
+    height: 50px;
+}
+.elementor-spacer-inner-min {
+    height: 20px;
+}
+
+.elementor-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+svg.element-shape-top {
+    height: 18px;
+    width: 100%;
+}
+
+.elementor-shape-top {
+    top: -1px;
+}
+
+.f-color-light{
+    color: #fbfbfb;
+}
+
+.f-weight-300{
+    
+    font-weight: 300;
+}
+.t-align-center{
+    text-align: center;
+}
+.w-max-d{
+    width: 1140px;
+}
+.title-inform{
+    width: 100%;
+    line-height: 1;
+}
+.p-italic{
+    text-align: center;
+    color: #fff;
+    font-family: "Muli";
+    font-size: 17px;
+    font-variant: normal;
+     font-weight: 500;
+    font-style: italic;
+    line-height: 1.3em;
+}
+
+.iframe-video-main{
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    line-height: 1;
+    border: none;
+    height: 100%;
+}
+
+.dest-y-text{
+    text-align: center;
+    color: #deaf08;
+    font-family: "Poppins",Sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+
+.elementor-button{
+    font-family: "Roboto",Sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    fill: #fff;
+    color: #fff;
+    background-color: #e07b17;
+    padding: 20px;
+}
+.elementor-button span {
+    text-decoration: inherit;
+}
+span#city{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+
+.video-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.sec-list-d h2{
+    text-align: center;
+    color: #24282a;
+    font-family: "Roboto",Sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+h1.distact-element-title{
+    margin: .9rem 0px .9rem 0px;
+    text-align: center;
+    color: #383838;
+    font-size: 43px;
+    font-weight: 700;
+}
+h1.distact-element-title span{
+    
+    background-color: #deaf08;
+}
+
+img.img-radious-dem{
+    border-radius: 50px;
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+    width: 800px;
+}
+
+.elementor-icon-list-icon i{
+    color: #197719;
+}
+span.elementor-icon-list-text
+{
+    font-family: "IBM Plex Sans",Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #54595f;
+}
+
+.div-gradient-medium-white-to-black{
+    height: 30px;
+    background: linear-gradient(to bottom left, white 50%, black 51%);
+}
+
+.elementor-heading-title {
+    color: #fff;
+    font-family: "Poppins",Sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+.element-div-grandient-bla-gre{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 31%, rgba(22,62,12,1) 100%);
+}
+
+.elementor-heading-description{
+    font-size: 19px;
+    color: #fff;
+    font-family: "Poppins",Sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.element-row-limited-1000{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.elementor-heading-title-italic-b{
+    text-align: center;
+    color: #212121;
+    font-family: "Muli",Sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.2em;
+}
+
+.card-green-border{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #197719;
+    margin: 5px;
+    padding: 15px;
+    height: 90%;
+}
+.elementor-animation-grow{
+    background-color: #197719;
+    color: #fff;
+    fill: #fff;
+    border-radius: 50%;
+}
+.elementor-icon i, .elementor-icon svg {
+    width: 1em;
+    height: 1em;
+    position: relative;
+    display: block;
+}
+
+.elementor-icon {
+    padding: .5em;
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+}
+.elementor-animation-grow{
+    transition: transform .2s; /* Animation */
+    color: #fff;
+}
+
+.elementor-animation-grow:hover {
+    transform: scale(1.2);
+    color: #818a91;
+}
+
+.infors-ewehyw6yt{
+    text-align: center;
+}
+.infors-ewehyw6yt h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000;
+}
+.infors-ewehyw6yt p{
+    color: #424242;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8em;
+}
+.background-gray{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#f2eeee 0%,#f2eeee 100%);
+}
+.title-b-gray{
+    column-gap: 0;
+    text-align: center;
+    color: #1a1a1a;
+    font-family: "Poppins",Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1em;
+}
+
+.card-demonstrations{
+    text-align: center;
+}
+.card-demonstrations img{
+    width: 100%;
+}
+.card-demonstrations h3{
+    
+    color: #2a2a2a;
+    font-family: "Roboto",Sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+}
+.card-demonstrations p{
+    color: #7a7a7a;
+    font-family: "Roboto",Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+/*
+.parallax {
+    background-image: url("https://viverderesina.com/wp-content/uploads/2021/04/WhatsApp-Image-2020-02-10-at-15.28.31-1-1-1.jpg");
+  
+    min-height: 400px;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    
+}
+*/
+
+.elementor-shape[data-negative=false].elementor-shape-bottom, .elementor-shape[data-negative=true].elementor-shape-top {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    
+}
+.height-min-shape{
+    height: 30px;
+}
+.elementor-shape-bottom {
+    bottom: -1px;
+}
+.background-black-transp-op{
+    background-attachment: fixed;
+    background-color: #f36218;
+    background-image: url(https://viverderesina.com/wp-content/uploads/2021/04/WhatsApp-Image-2020-02-10-at-15.28.31-1-1-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:  .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.elementor-background-overlay{
+    background-color: #000;
+    opacity: .87;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+
+.elementor-container.elementor-column-gap-default{
+    max-width: 1140px;
+    min-height: 400px;
+}
+
+.elementor-container-paralax{
+    min-height: 400px;
+    max-width: 1140px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+
+.elementor-icon-list-text-white{
+    
+    font-family: "Poppins",Sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #fff;
+    padding-left: 2px;
+}
+.elementor-icon-list-items{
+    padding: 0;
+}
+.elementor-shape-top-min{
+    width: calc(100% + 1.3px);
+    height: 24px;
+    transform: translateX(-50%) rotateY(180deg);
+    position: relative;
+    left: 50%;
+}
+.elementor-shape {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+h1.h1-title-gray-black{
+    text-align: center;
+    color: #333333;
+}
+
+h4.h4-title-gray-black{
+    text-align: center;
+    color: #7a7a7a;
+}
+
+img.desconto{
+    width: 45%;
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border: none;
+}
+@media (max-width: 767px){
+    img.img-top-header {
+        width: 100%;
+        max-width: 100%;
+    }
+    .title-inform{
+        font-size: 24px;
+    }
+    .w-max-d{
+        width: 100%;
+    }
+
+    .elementor-button{
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    .sec-list-d h2{
+        font-size: 19px;
+    }
+
+    h1.distact-element-title{
+        font-size: 24px;
+        line-height: 1.1em;
+    }
+    .elementor-icon-list-icon{
+        justify-content: flex-start
+    }
+    .elementor-heading-title, .elementor-heading-title-italic-b {
+        font-size: 24px;
+    }
+
+    .card-green-border{
+        padding: 35px;
+    }
+    .infors-ewehyw6yt h3{
+        font-size: 18px;
+    }
+    .infors-ewehyw6yt p{
+        font-size: 14px;
+    }
+    .title-b-gray{
+        font-size: 27px;
+        line-height: .9em;
+        letter-spacing: -1.6px;
+    }
+}
