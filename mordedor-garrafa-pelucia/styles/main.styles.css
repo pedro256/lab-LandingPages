@@ -1,0 +1,27 @@
+
+.header-apresention-le{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background-color: #005e97;
+    background-image: url("https://images.assets-landingi.com/iDeJxU8A/Modelo_10_Vertical_Horizontal.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    display: block;
+    
+}
+
+#cnp-infor{
+    padding: 8px 0px 0px 0px;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    color: rgb(16, 13, 13);
+}
