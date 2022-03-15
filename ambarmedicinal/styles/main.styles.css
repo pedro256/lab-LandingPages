@@ -1,0 +1,45 @@
+.header-apresentation{
+    background-color: transparent;
+    background-image:  url('../assets/HEADER_DESKTOP_2021.jpg');
+    background-color: #eff6f9;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background-attachment: scroll;
+    background-size: initial!important;
+    border: 0;
+    min-height: 30rem;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.logo-middle{
+    position: relative;
+    top:0;
+    left: 0;
+}
+.logo-middle > div{
+    position: absolute; 
+    left: -60px;
+    top: 50%;
+}
+.stone-r{
+    position: relative;
+    left: 190px;
+    top: 70px;
+}
+
+.logo-composer{
+    position: relative;
+    top:-50px;
+    left: 0;
+}
+
+@media only screen and (max-width: 763px){
+    .header-apresentation{
+        background-image: url('../assets/HEADER_MOBILE_2021.jpg');
+        background-position: bottom center!important;
+        background-size: cover!important;
+        border: 0;
+        
+    }
+}
