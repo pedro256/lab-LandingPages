@@ -1,3 +1,16 @@
+body{
+    background-color: #eff6f9 !important;
+}
+.padding-medium{
+    padding: 40px;
+}
+.padding-title-center{
+    padding: 20px 0px 20px 0px;
+}
+.row-limited{
+    width: 100%;
+    max-width: 1100px;
+}
 .header-apresentation{
     background-color: transparent;
     background-image:  url('../assets/HEADER_DESKTOP_2021.jpg');
@@ -7,7 +20,7 @@
     background-attachment: scroll;
     background-size: initial!important;
     border: 0;
-    min-height: 30rem;
+    min-height: 35rem;
     display: block;
     margin: 0px;
     padding: 0px;
@@ -33,13 +46,69 @@
     top:-50px;
     left: 0;
 }
+.background-sec{
+    background-color: #68c4eb;
+    color: #eff6f9;
+    background-image: none;
+    display: block;
+}
+.background-sec-morb{
+    background-color: #e3eff8;
+}
+.background-sec h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.baby-doe-img{
+    width: 700px !important;
+}
+.ul-lister{
+    color: #6d6d6d;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 0;
+}
+.img-buttom-i-want{
+    width: 80%;
+}
+.container-personalized {
+    height: 100%;
+    max-height: 500px;
+    position: relative;
+}
+  
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+.background-pink{
+    background-color: #fad7cc;
+}
 
+img.img-title-20k{
+    width: 100%;
+    max-width: 200px;
+}
 @media only screen and (max-width: 763px){
     .header-apresentation{
         background-image: url('../assets/HEADER_MOBILE_2021.jpg');
         background-position: bottom center!important;
         background-size: cover!important;
         border: 0;
+        min-height: 20rem;
         
+    }
+    .baby-doe-img{
+        width: 100% !important;
+    }
+    .ul-lister{
+        
+    font-size: .8125rem;
     }
 }
