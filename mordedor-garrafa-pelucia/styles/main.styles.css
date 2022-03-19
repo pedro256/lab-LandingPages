@@ -53,7 +53,7 @@
 .img-back{
     position: absolute;
     left: 50%;
-    top: -300px;
+    top: -100px;
     height: 18.875rem;
     width: 18.875rem;
 
@@ -61,7 +61,7 @@
 
 .img-front{
     position: absolute;
-    top:-100px;
+    top:100px;
     left: 20%;
     height: 12.5rem;
     width: 12.5rem;
@@ -99,8 +99,6 @@
     font-size: 2.1875rem;
     font-weight: 400;
     line-height: 1;
-    height: 3.124025rem;
-    width: 3.124025rem;
     text-align: center;
     text-align-last: center;
     text-decoration: none;
@@ -127,6 +125,7 @@
 .color-btn-sec{
     background-color:  #ec9400 ;
 }
+
 .timer h4{
     border: 0;
     color: #000;
@@ -466,17 +465,22 @@
     font-weight: 300;
     font-size: 13px;
 }
+.margin-0{
+    margin: 0;
+}
+.information-ressalv p{
+    font-size: 1.4375rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0;
+    font-family: rubik;
+}
 
 @media (max-width: 767px){
 
-    .img-back{
-        position: unset;
-    }
-    .img-front{
-        position: unset;
-    }
-    .images-header-dem{
-        position: unset;
+    
+    .header-apresention-le{
+        background-attachment:local;
     }
 
     .logo-img{
@@ -497,4 +501,72 @@
     }
 
 
+    .images-header-dem{
+        position: unset;
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    .img-back{
+        position: relative;
+        left: 150px;
+        top: 0px;
+        width: 9.4375rem;
+        height: 9.4375rem;
+
+    }
+
+    .img-front{
+        position: relative;
+        top:0px;
+        left: -100px;
+        width: 9.4375rem;
+        height: 9.4375rem;
+    }
+    .text-destac-h2{
+        font-size: 23px;
+    }
+    .ul-mark{
+        font-size: .9375rem;
+    }
+    .ul-mark li {
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .text-destac-background-sec p{
+        font-size: 1.5625rem;
+    }
+    
+    .timer{
+        max-width: 280px;
+    }
+    .timer h4 {
+        font-size: 2.6875rem;
+        line-height: 1;
+    }
+    .time p{
+        font-size: .5rem;
+        line-height: 1;
+    }
+    .title-questions{
+        padding: 25px 40px 25px 40px !important;
+        background-color: #005e97;
+        color: #fff;
+        font-size: 1.5625rem;
+    }
+    .container-sserte{
+        padding: 0px 30px 0px 30px !important;
+        
+    }
+
+    .container-sserte p{
+        font-size: 20px !important;
+    }
+    .centerlized-footer{
+        text-align: center;
+    }
+    .row-container-footer{
+        padding: 0px 60px 30px 60px;
+    }
 }
