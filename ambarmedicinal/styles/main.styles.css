@@ -52,6 +52,9 @@ body{
     background-image: none;
     display: block;
 }
+.background-white{
+    background-color: #fff;
+}
 .background-sec-morb{
     background-color: #e3eff8;
 }
@@ -95,6 +98,64 @@ img.img-title-20k{
     width: 100%;
     max-width: 200px;
 }
+h1.title-rsam{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 2.25rem;
+    color: #ff5f00;
+}
+p.title-rsam{
+    padding-top: 10px;
+    text-align: center;
+    color: #ff5f00;
+    font-weight: bold;
+}
+p.p-description-rsam{
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+img.img-famors-mos{
+    width: 100%;
+}
+
+.layer_5{
+    width: 100%;
+}
+.w100p100{
+    width: 100%;
+}
+
+.icon-imagem-baby{
+    height: 76.4375rem;
+    width: 60rem;
+}
+.divider-b1{
+    width: 80%;
+    height: .3125rem;
+    background-color: #e3e3e3;
+    margin: 20px 0px 20px 0px;
+}
+.txt-listehe{
+    font-size: .75rem;
+    font-weight: 700;
+}
+.txt-tirleo{
+    font-size: .8125rem;
+}
+
+.background-gray-dark{
+    background-color: #2f2f2f;
+}
+.background-gray-dark h1{
+    text-align: center;
+    text-align-last: center;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    color: #ffbe00;
+    font-weight: 700;
+    font-family: ubuntu;
+}
+
 @media only screen and (max-width: 763px){
     .header-apresentation{
         background-image: url('../assets/HEADER_MOBILE_2021.jpg');
@@ -110,5 +171,57 @@ img.img-title-20k{
     .ul-lister{
         
     font-size: .8125rem;
+    }
+
+    .background-sec h1{
+        font-size: 25px;
+    }
+
+    .print{
+        width: 80%;
+        box-shadow: 0.0625rem 0.0625rem 0.625rem rgb(0 0 0 / 30%);
+        margin-top: 30px;
+    }
+
+    .grid-img{
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    h1.title-rsam{
+        font-size: 1.625rem;
+    }
+    p.title-rsam{
+        font-size: 1.625rem;
+
+
+    }
+    .logo-02{
+        width: 60%;
+    }
+    .description-settr{
+        font-size: 14px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .icon-imagem-baby{
+        width: 7.3125rem;
+        height: 5.6875rem;
+        margin-bottom: 18px;
+    }
+    .icon-imagem-older{
+        width: 4.6875rem;
+    height: 7.5rem;
+    margin-bottom: 18px;
+    }
+
+    .w350-lieem{
+        width: 350px !important;
+    }
+    .w300-lieem{
+        width: 300px !important;
+    }
+    .w250-lieem{
+        width: 250px !important;
     }
 }
